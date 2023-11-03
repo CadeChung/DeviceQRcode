@@ -20,3 +20,18 @@
     max-height: 400px;
     height: auto;
 }
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction:  column;
+    }
+
+    .text {
+        order:2;
+    }
+
+    .img_box {
+        order: 1;
+        text-align: center;
+    }
+}
