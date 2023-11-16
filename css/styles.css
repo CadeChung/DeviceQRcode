@@ -12,13 +12,25 @@
 
 .img_box {
     flex: 1;
-    text-align: right;
+    text-align: center;
+
 }
 
 .img_box img {
     max-width: 100%;
     max-height: 400px;
     height: auto;
+}
+
+strong {
+    color: #ff1100;
+}
+
+h3::before {
+    content: "• ";
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: blue;
 }
 
 @media (max-width: 767px) {
